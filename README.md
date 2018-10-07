@@ -39,6 +39,14 @@ celotno pot, torej nekaj kot `C:\Python32\python.exe setup.py install`.
 Če kdo slučajno uporablja Linux, naj kontaktira
 [Natana](mailto:natan.zabkar@gmail.com) za navodila.
 
+Linux navodila za Python 3.6.6, Numpy 1.15.2, Pillow 5.3.0:
+
+```bash
+sudo apt-get install python3 (ali sudo dnf install python3)
+sudo pip3 install -I --no-cache-dir numpy 
+sudo pip3 install -I --no-cache-dir Pillow 
+```
+
 Uporabo si poglejte na primeru v datoteki numpy_pillow_example.py
 
 ## Seznam:
@@ -54,3 +62,25 @@ Uporabo si poglejte na primeru v datoteki numpy_pillow_example.py
 * Lucija Gruden (lucigruden) - hexaflake
 * Aljaž Podgornik (whiterocket) - [Sierpinski trikotnik](http://en.wikipedia.org/wiki/Sierpinski_triangle)
 * Rok Kovač (kovarok) - [Pitagorejsko drevo](http://en.wikipedia.org/wiki/Pythagoras_tree_%28fractal%29)
+
+
+## Primer:
+Julia sets - [Rok Kos](https://github.com/RokKos)
+
+![Julia set 01][Julia-set-01]
+
+![Julia set 02][Julia-set-02]
+
+![Julia set 03][Julia-set-03]
+
+![Julia set 04][Julia-set-04]
+
+
+[Julia-set-01]:		https://github.com/RokKos/2013-Fraktali/blob/master/img/julia_set_0.png
+ "Julia set 01"
+ [Julia-set-02]:		https://github.com/RokKos/2013-Fraktali/blob/master/img/julia_set_2.png
+ "Julia set 02"
+[Julia-set-03]:		https://github.com/RokKos/2013-Fraktali/blob/master/img/julia_set_3.png
+ "Julia set 03"
+ [Julia-set-04]:		https://github.com/RokKos/2013-Fraktali/blob/master/img/julia_set_4.png
+ "Julia set 04"
